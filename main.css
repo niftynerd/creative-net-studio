@@ -1,0 +1,71 @@
+body {
+	//font-family: "Trebuchet MS", Verdana, sans-serif;
+	margin:0;
+	//background-image: url("img/page_header.png");
+	//font-size: 16px;
+	//background-color: dimgrey; 
+	//padding: 3px;
+}
+
+#main {
+	margin-left: 25px;
+	//margin-top: 30px;
+}
+
+.top {
+	margin-top:30px;
+}
+
+ul.navigation {
+	margin: 0;
+	padding: 0;
+}
+
+#navbar {
+	overflow: hidden;
+	background-color: #333;
+	top: 0px;
+	width: 100%;
+}
+
+a {
+	color: navy;
+	text-decoration: none;
+}
+
+li {
+  display: inline;
+}
+
+li.navli {
+	float: left;
+}
+
+li.navli a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li.navli a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color: navy;
+}
+
+li h1:hover {
+	border-bottom: 3px solid navy;	
+}
+
+/*h1 {
+	border-bottom: 3px solid black;   
+	text-align: center;
+}
+
+h2,h3,p {
+	text-align: center;
+}*/
