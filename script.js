@@ -7,7 +7,7 @@ document.getElementById("header").innerHTML =
 		"<li style='float:right; margin-right:30px; margin-top:30px'><a href='#contact'><h1 class='top'>Contact</h1></a></li>" +
 		"</ul>" +
 		"<ul id=navbar class=navigation>" +
-		"<li class='navli'><a class='active' href='#about'>About</a></li>" +
+		"<li class='navli'><a id='aboutlnk' class='active' href='#about'>About</a></li>" +
 		"<li class='navli'><a href='#potfolio'>Portfolio</a></li>" +
 		"<li class='navli'><a href='#contact'>Contact</a></li>" +
 		"</ul>";
