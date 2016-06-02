@@ -1,20 +1,14 @@
 body {
-	//font-family: "Trebuchet MS", Verdana, sans-serif;
 	margin:0;
+	font-family: Arial, Helvetica, sans-serif;
+	//background-color: dimgrey;
 	//background-image: url("img/page_header.png");
-	//font-size: 16px;
-	//background-color: dimgrey; 
+	//font-size: 16px;	
 	//padding: 3px;
-}
-
-#about {
-    padding-top: 40px;
-		margin-top: -40px;
 }
 
 #main {
 	margin-left: 25px;
-	//margin-top: 30px;
 }
 
 .top {
@@ -29,13 +23,11 @@ ul.navigation {
 #navbar {
 	overflow: hidden;
 	background-color: #333;
-	top: 0px;
+	top: 0;
 	width: 100%;
-	//position: relative;
 }
 
 a {
-	color: navy;
 	text-decoration: none;
 }
 
@@ -52,26 +44,26 @@ li.navli a {
     color: white;
     text-align: center;
     padding: 14px 16px;
-    text-decoration: none;
 }
 
-li.navli a:hover:not(.active) {
-    background-color: #111;
-}
-
-.active {
-    background-color: navy;
+li.navli a:hover {
+    background-color: white;
+	color: #333;
 }
 
 li h1:hover {
-	border-bottom: 3px solid navy;	
+	border-bottom: 3px solid navy;
 }
 
-/*h1 {
-	border-bottom: 3px solid black;   
-	text-align: center;
+#about {
+    padding-top: 40px;
+	margin-top: -40px;
 }
 
-h2,h3,p {
+h1,h2 {
+	color: navy;
+}
+
+/*h2,h3,p {
 	text-align: center;
 }*/
