@@ -4,23 +4,67 @@
 	<title>Creative Net Studio</title>
 	<link rel="icon" href="logo.png">
 	<link href="main.css" rel="stylesheet" type="text/css">
+	<link href="slideshow.css" rel="stylesheet" type="text/css">
 </head>
 <body>
 	
 	<nav id="header" ></nav>
 	
 	<div id="main">
-		<div id="about">
+		<div class="section" id="about">
 			<h2>About</h2>
+			<p><strong>Creative Net Studio</strong> based in <strong>Auckland, New Zealand</strong> can create, design and implement a website for you that suits <strong>YOUR</strong> needs.<br>
+			Whether it be a business or personal venture, we can cater to all your requirements. We aim to blend this with obtaining high search<br>
+			engine rankings to effectively market your business or personal venture to the world.
+			</p>
+			<p><a href="#contactlnk">Contact us</a> for a free quote to see how Creative Net Studio can get you up and running with a website fit for purpose!</p>
 		</div>		
 		
-		<!--<ul>
-			<li style='display:block;'>Test<br><a href='cleversplit.html'><img src='logo.png'></a></li>
-			<li style='display:block;'><a href='onemanstrash.html'><img src='logo.png'></a></li>
-			<li style='display:block;'><a href='novel.html'><img src='logo.png'></a></li>
-			<li style='display:block;'><a href='tradiebin.html'><img src='logo.png'></a></li>
-		</ul>-->
-		<p>Hello world</p>
+		<div class="section" id="portfolio">
+			<h2>Portfolio</h2>
+			<div class="slideshow-container">
+				<div class="mySlides fade">
+					<a href="http://www.otatouinnovations.co.nz" target="_blank"><h4>&#332; T&#256;TOU Innovations</h4></a>
+					<p>&#332; T&#256;TOU Innovations is a small business specializing in several product lines with the trades
+					and book publishing in mind. They wanted an intuitive website with a fun and friendly interface to advertise
+					their services.</p>
+					<img src="img/ss/otatou.png">
+				</div>
+				<div class="mySlides fade">
+					<a href="http://www.creativenetstudio.com" target="_blank"><h4>Creative Net Studio</h4></a>
+					<p>Creative Net Studio is a website creation company specializing in website design and development for small
+					to mid-sized businesses or personal ventures.</p>
+					<img src="img/ss/cns.png">
+				</div>
+				<!--<div class="mySlides fade">
+					<img src="img/ss/013.png">
+				</div>
+				<div class="mySlides fade">
+					<img src="img/ss/014.png">
+				</div>
+				<div class="mySlides fade">
+					<img src="img/ss/015.png">
+				</div>-->
+				<br>
+				<div style="text-align:center;">
+					<span class="dot" onclick="currentSlide(1)"></span>
+					<span class="dot" onclick="currentSlide(2)"></span>
+					<!--<span class="dot" onclick="currentSlide(3)"></span>
+					<span class="dot" onclick="currentSlide(4)"></span>
+					<span class="dot" onclick="currentSlide(5)"></span>-->
+				</div>
+			</div>
+			
+			<script src="slideshow.js"></script>
+		</div>
+		
+		<div class="section" id="contact">
+			<h2>Contact</h2>
+			<p>Geoff Loh<br>
+			Manager<br>
+			TBD<br>
+			TBD</p>
+		</div>
 		
 		<footer id="foot01"></footer>		
 	</div>
