@@ -1,5 +1,6 @@
 var slideIndex = 1;
 showSlides(slideIndex);
+var timeout;
 
 function plusSlides(n) {
   showSlides(slideIndex += n);
@@ -10,6 +11,8 @@ function currentSlide(n) {
 }
 
 function showSlides(n) {
+	clearTimeout(timeout);
+	
   var i;
   var slides = document.getElementsByClassName("mySlides");
   var dots = document.getElementsByClassName("dot");
@@ -23,4 +26,6 @@ function showSlides(n) {
   }
   slides[slideIndex-1].style.display = "block";  
   dots[slideIndex-1].className += " active";
+	
+	timeout = setTimeout(plusSlides, 15000, 1); // Change image every 15 seconds
 }

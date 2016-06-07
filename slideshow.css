@@ -2,7 +2,6 @@
 .slideshow-container {
   max-width: 750px;
   position: relative;
-  //margin: auto;
 }
 
 .slideshow-container img {
@@ -14,13 +13,13 @@
   cursor: pointer;
   position: absolute;
   top: 0;
-  top: 50%;
+  top: 100%;
   width: auto;
   padding: 16px;
   margin-top: -22px;
-  color: grey;
+  color: black;
   font-weight: bold;
-  font-size: 18px;
+  font-size: 22px;
   transition: 0.6s ease;
   border-radius: 0 3px 3px 0;
 }
