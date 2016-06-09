@@ -59,10 +59,14 @@ li.navli a:hover {
 		color: #333;
 }
 
-li h1:hover {
+li h2:hover,h3 a:hover {
 	border-bottom: 3px solid navy;
 }
 
 h1,h2 {
 	color: navy;
+}
+
+h1,h3 {
+	text-align: center;
 }
